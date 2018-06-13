@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/general.css" rel="stylesheet">
+  <title>Nickstabadet</title>  
+</head>
+
+<body>
+<header>
+  <h1>Nickstabadet</h1>
+  <div class="underrubrik">
+  <p>Ett soligt sommarbad</p>
+  </div>
+</header>
+
+   <nav>
+      <ul>
+        <li><a href="index.html">Hem</a></li>
+        <li class="active"><a href="contact.html">Kontakt</a></li>
+        <li><a href="status.html">Väder</a></li>    
+        <li class="tillbaka"><a href="index.html">Tillbaka</a></li>   
+      </ul>
+    </nav>
+    
+  <section id="kontakt">
+    <div class="content">
+      <h2>Lämna dina synpunkter här!</h2><br>
+        <form>
+         <div class="rubrik">
+          <p>Rubrik</p>
+          <input type="text" placeholder="Rubrik"> 
+          </div>
+          
+          <div class="besk">
+          <p>Beskrivning Max 100 tecken.</p>
+          <textarea rows="4" maxlength="100"></textarea>
+          <p>Max 100 tecken.</p>
+          </div>
+          
+          <div class="arende">
+          <p>Ärende</p>
+          <select>
+            <option value="Strand">Strand</option>
+            <option value="Camping">Camping</option>
+            <option value="Kanot">Kanot</option>
+            <option value="Övrigt">Övrigt</option>
+          </select>
+          </div>
+          
+          <div class="synp">
+          <p>Vill du få svar på din synpunkt? <br>
+          <label for="ja">Ja</label>
+          <input type="radio" id="ja">
+          <label for="nej">Nej</label>
+          <input type="radio" id="nej"> <br>
+          </div>
+           
+          <div class="email"> 
+          <p>Email</p>
+          <input type="text" placeholder="exempel@email.com"> 
+          </div>
+          
+          <input type="submit" value="Skicka">
+          
+        </form>
+      </div>      
+    </section>
+
+  
+<footer>
+  <p>
+    Vill du veta mer? Skicka e-post till 
+    <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">info@nicksta.se</a>
+  </p>
+</footer>
+
+
+</body>
+</html>

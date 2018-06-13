@@ -1,0 +1,15 @@
+header {
+  background-image: url(/nynas/assets/images/layout/header-sky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ .mt-5 {
+  border: solid 2px lightblue;
+  border-radius: 10px;
+}
+
+
