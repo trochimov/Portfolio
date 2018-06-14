@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<shiporder orderid="1">
+    <orderPerson>Johan Eriksson</orderPerson>
+    <shipTo>
+        <name>Johan Eriksson</name>
+        <address>Vartoftagatan 47B</address>
+        <city>Stockholm</city>
+        <country>Sweden</country>
+    </shipTo>
+    <item>
+        <title>Guitar</title>
+        <note>Model SG</note>
+        <quantity>5</quantity>
+        <price>1000</price>
+    </item>
+    <item>
+        <title>Bass</title>
+        <note>Model Thunderbird</note>
+        <quantity>15</quantity>
+        <price>2000</price>
+    </item>
+</shiporder>
